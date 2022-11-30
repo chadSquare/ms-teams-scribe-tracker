@@ -52,14 +52,14 @@
     });
 
 const teamMembers = [
-    'Liubomyr',
-    'Jaco',
-    'Nazar',
-    'Hendri',
-    'Waseem',
-    'Marindi',
-    'Chad',
-    'Bala'
+     'Bob',
+     'Sarah',
+     'Jeff',
+     'Kim',
+     'Lance',
+     'Jane',
+     'Paul',
+     'Maria'
     ];
 
 //  methods for script
