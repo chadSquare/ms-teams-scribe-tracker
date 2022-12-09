@@ -52,14 +52,12 @@
  });
 
 const teamMembers = [
- 'Liubomyr',
- 'Jaco',
- 'Nazar',
- 'Hendri',
- 'Waseem',
- 'Marindi',
- 'Chad',
- 'Bala'
+ 'Bob',
+ 'Sarah',
+ 'Chris',
+ 'Sam',
+ 'Paul',
+ 'Jeff'
  ];
 
 //  methods for script
@@ -104,7 +102,6 @@ function runUpdate() {
  'use strict';
  waitForKeyElements (".power-bar-margin", () => {
      const powerBarMargin = document.querySelector(".power-bar-margin");
-     console.log(powerBarMargin);
      powerBarMargin.insertAdjacentElement('afterend', summaryBtn)
      summaryBtn.insertAdjacentElement('afterend', updateScribeBtn)
 
